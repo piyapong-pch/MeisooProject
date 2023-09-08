@@ -1,0 +1,26 @@
+
+
+.fullcalendar {
+    width: auto;
+    height: 800px;
+}
+
+@media screen and (max-width: 960px) {
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .display {
+      display: block;
+    } 
+    
+}
+.display {
+    display: flex;
+}
+
+.planner-component {
+    margin: 5%;
+}

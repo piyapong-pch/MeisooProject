@@ -1,0 +1,26 @@
+:root {
+    --main-margin: 0;
+    --main-width: 80%
+}
+
+.main-content {
+    margin-left: var(--main-margin) ;
+    position : absolute;
+    background-color: #fff;
+    width: var(--main-width);
+    height: 90vh;
+    z-index: -3;
+    padding: 2%;
+    top: 17vh;
+}
+
+.planner {
+    display: inline;
+}
+@media screen and (max-width: 960px) {
+    .main-content {
+        margin-left: 0;
+    }
+    
+}
+

@@ -1,0 +1,47 @@
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: teal;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background: aliceblue;
+  }
+
+.calendar {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 700;
+}
+
+.todo-container {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    width: 400px;
+    margin: 0;
+    display: block;
+}
+
+.heading {
+    text-align: center;
+}
+
+.planner-element {
+    margin: 25px 3% ;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: auto;
+}
+
+.navigate-button {
+    display: block;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+}

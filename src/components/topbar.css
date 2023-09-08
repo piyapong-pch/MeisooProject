@@ -1,0 +1,25 @@
+.topbar {
+    background: aliceblue;
+    width: 100%;
+    height: 15%;
+    margin: 0 ;
+    display: absolute;
+    position: fixed;
+    z-index: -1
+    ;
+}
+
+.logo  {
+    float: right;
+    margin: 10px 17px;
+}
+.icon-button {
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.text-logo {
+    float: right;
+    margin-top: 20px;
+}
